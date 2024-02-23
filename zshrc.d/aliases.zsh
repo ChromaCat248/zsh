@@ -8,3 +8,7 @@ alias fpkx="flatpak run" #flatpak e'X'ecute
 
 # fancy ls
 alias ls="eza -l"
+
+# nvim muscle memory
+alias :q="exit"
+alias :e="nvim"
