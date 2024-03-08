@@ -6,7 +6,7 @@ update() {
     # `Include = /etc/pacman.d/reflector-mirrorlist`
     # to /etc/pacman.d/mirrorlist
     print -P "%F{33}%K{0}%F{7} Updating mirrorlist using Reflector"
-    sudo reflector -c us --save /etc/pacman.d/reflector-mirrorlist
+    sudo reflector --save /etc/pacman.d/reflector-mirrorlist
     echo
 
     print -P "%F{33}%K{0}%F{7} Running paru -Syyu"
