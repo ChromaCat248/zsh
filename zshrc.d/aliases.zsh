@@ -9,6 +9,10 @@ alias fpkx="flatpak run" #flatpak e'X'ecute
 # fancy ls
 alias ls="eza -l"
 
-# nvim muscle memory
+# vim muscle memory
 alias :q="exit"
-alias :e="nvim"
+:e() {
+  if [[ $EDITOR ]] then $EDITOR $@
+  else echo Environment variable \$EDITOR is not set
+  fi
+}
