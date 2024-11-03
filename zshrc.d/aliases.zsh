@@ -6,6 +6,9 @@ alias fpku="flatpak update"
 alias fpks="flatpak search"
 alias fpkx="flatpak run" #flatpak e'X'ecute
 
+# helix shorthand
+alias hx="helix"
+
 # fancy ls
 alias ls="eza -l"
 
